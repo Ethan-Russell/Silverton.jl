@@ -2,6 +2,10 @@ module Silverton
 
 using DataStructures
 
+export
+    SilvertonGame,
+    advance!
+
 mutable struct SilvertonGame
     round
     prices
